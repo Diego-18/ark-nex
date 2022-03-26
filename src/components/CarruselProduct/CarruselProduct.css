@@ -1,0 +1,10 @@
+.carrusel {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	border: 1px solid #eee;
+	margin: 2rem;
+	padding: 1rem;
+	width: 50%;
+}
