@@ -7,7 +7,7 @@ export default function Navbar() {
 			<nav>
 				<div class="nav-logo g-font">Ark-Nex</div>
 				<div class="nav-link">
-					<router-link to="/">Home</router-link>
+					<a href="/">Home</a>
 				</div>
 			</nav>
 		</div>
