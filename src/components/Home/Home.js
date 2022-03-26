@@ -1,4 +1,6 @@
 import React from "react";
+import "./Home.css";
+
 import CardProduct from "../CardProduct/CardProduct";
 import CarruselProduct from "../CarruselProduct/CarruselProduct";
 

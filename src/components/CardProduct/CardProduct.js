@@ -1,8 +1,9 @@
 import React from "react";
+import "./CardProduct.css";
 
 export default function CardProduct() {
 	return (
-		<div>
+		<div className="card">
 			<p>Card</p>
 		</div>
 	);

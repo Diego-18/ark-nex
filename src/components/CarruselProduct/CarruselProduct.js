@@ -1,4 +1,5 @@
 import React from "react";
+import "./CarruselProduct.css";
 
 export default function Carrusel() {
 	return (
