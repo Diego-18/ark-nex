@@ -16,10 +16,10 @@ export default function ModalCar(props) {
 					</p>
 				</div>
 				<div className="modal-footer">
-					<a className="btn" href="#">
+					<a className="btn" href="https://ark-nex.netlify.app">
 						NO
 					</a>
-					<a className="btn" href="#">
+					<a className="btn" href="https://ark-nex.netlify.app">
 						YES
 					</a>
 				</div>
