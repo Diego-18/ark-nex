@@ -2,7 +2,6 @@ import React from "react";
 import "./FormProduct.css";
 
 export default function FormProduct(props) {
-	const { name, value } = props.products;
 	return (
 		<div>
 			<div className="options-form">
@@ -18,8 +17,12 @@ export default function FormProduct(props) {
 				))}
 			</div>
 			<div className="button-panel">
-				<button onclick="">Add To Favorite</button>
-				<button onclick=""> Add To Car</button>
+				<a className="btn" href="#">
+					Add To Favorite
+				</a>
+				<a className="btn" href="#AddCar">
+					Add To Car
+				</a>
 			</div>
 		</div>
 	);
