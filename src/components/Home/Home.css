@@ -6,4 +6,24 @@
 	border: 1px solid #eee;
 	margin: 2rem;
 	padding: 1rem;
+	border-radius: 0.5rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.Home {
+		flex-direction: column;
+		padding: 0.5rem;
+		margin: 1rem;
+		border: 0;
+	}
+}
+
+/** Movil **/
+@media screen and (max-width: 767px) {
+	.Home {
+		flex-direction: column;
+		padding: 0.5rem;
+		margin: 1rem;
+		border: 0;
+	}
 }
