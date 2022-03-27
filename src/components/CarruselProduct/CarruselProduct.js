@@ -1,7 +1,6 @@
 import React from "react";
 import "./CarruselProduct.css";
 
-// Recibir el array de imagenes del producto
 export default function CarruselProduct(props) {
 	return (
 		<div className="Carrusel">
