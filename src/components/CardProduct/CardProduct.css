@@ -1,10 +1,68 @@
-.card {
+.CardProduct {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
-	border: 1px solid #eee;
 	margin: 2rem;
 	padding: 1rem;
 	width: 50%;
+}
+
+.CardProduct-title {
+	font-size: 2rem;
+	font-weight: bold;
+	color: #3498db;
+	padding: 1rem 0rem 0rem 0rem;
+	border-bottom: #a1a7aa solid 1px;
+	margin-bottom: 1rem;
+}
+
+.CardProduct-price {
+	padding: 0rem 0rem 1rem 0rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.price_actual {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-right: 0.5rem;
+}
+
+.CardProduct-price,
+.CardProduct-description {
+	color: #77848c;
+}
+
+.CardProduct-description {
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.CardProduct {
+		width: 90%;
+		margin: 0.5rem;
+		padding: 1rem;
+	}
+
+	.CardProduct-description {
+		font-size: 0.9rem;
+		margin-top: 0.5rem;
+	}
+}
+
+/** Movil **/
+@media screen and (max-width: 767px) {
+	.CardProduct {
+		width: 90%;
+		margin: 0.5rem;
+		padding: 1rem;
+	}
+
+	.CardProduct-description {
+		font-size: 0.9rem;
+		margin-top: 0.5rem;
+	}
 }

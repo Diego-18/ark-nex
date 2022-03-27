@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import "./Home.css";
 
@@ -21,7 +20,7 @@ export default function Home() {
 					price_max: data.price_max,
 					description: data.description,
 					images: data.media,
-					variants: data.variants,
+					options: data.options,
 				};
 				setProducts(ProductData);
 			});
@@ -30,7 +29,7 @@ export default function Home() {
 	return (
 		<div className="Home">
 			{products && <CarruselProduct images={products.images} />}
-			<CardProduct />
+			{products && <CardProduct products={products} />}
 		</div>
 	);
 }
