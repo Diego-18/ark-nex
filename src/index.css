@@ -1,9 +1,14 @@
-.b-2 {
-	border: 2px solid #3498db;
+* {
+	margin: 0;
+	padding: 0;
 }
 
-.bs-2 {
-	box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
+body {
+	font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+.g-font {
+	font-family: "Lobster", cursive;
 }
 
 .btn {

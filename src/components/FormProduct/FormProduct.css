@@ -31,6 +31,9 @@ select {
 	margin: 1rem 0rem;
 }
 
+/*
+	Device: Tablet
+*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.options-form {
 		display: flex;
@@ -48,14 +51,14 @@ select {
 	}
 
 	label {
-		width: 100%;
-	}
-
 		width: 18rem;
 		margin: 0.5rem;
 	}
 }
 
+/*
+	Device: Mobile
+*/
 @media screen and (max-width: 767px) {
 	.options-form {
 		flex-direction: column;
