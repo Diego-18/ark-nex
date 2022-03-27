@@ -17,7 +17,7 @@ export default function FormProduct(props) {
 				))}
 			</div>
 			<div className="button-panel">
-				<a className="btn" href="#">
+				<a className="btn" href="https://ark-nex.netlify.app">
 					Add To Favorite
 				</a>
 				<a className="btn" href="#AddCar">
