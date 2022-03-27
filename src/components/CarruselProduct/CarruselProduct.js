@@ -3,7 +3,7 @@ import "./CarruselProduct.css";
 
 export default function CarruselProduct(props) {
 	return (
-		<div className="Carrusel">
+		<div className="Carrusel b-2 bs-2">
 			<div className="ContainerCarrusel">
 				{props.images.map((image, index) => (
 					<img

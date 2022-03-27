@@ -4,12 +4,10 @@
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
-	border: 2px solid #3498db;
 	width: 50%;
 	overflow: hidden;
 	margin: 2rem auto;
 	border-radius: 1.5rem 0rem 1.5rem 0rem;
-	box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
 }
 
 .Carrusel .ContainerCarrusel img {
@@ -45,5 +43,29 @@
 	}
 	50% {
 		left: -120%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.Carrusel {
+		width: 50rem;
+		margin: 1rem;
+	}
+
+	.Carrusel .ContainerCarrusel img {
+		width: 20rem;
+		height: auto;
+	}
+}
+
+/** Movil **/
+@media screen and (max-width: 767px) {
+	.Carrusel {
+		width: 100%;
+		margin: 2rem;
+	}
+
+	.Carrusel .ContainerCarrusel img {
+		width: 20rem;
 	}
 }
