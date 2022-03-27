@@ -6,6 +6,7 @@
 	margin: 2rem;
 	padding: 1rem;
 	width: 50%;
+	border-radius: 0rem 2rem 0rem 2rem;
 }
 
 .CardProduct-title {
@@ -46,6 +47,7 @@
 		width: 90%;
 		margin: 0.5rem;
 		padding: 1rem;
+		border-radius: 0rem 0rem 1rem 1rem;
 	}
 
 	.CardProduct-description {
@@ -54,12 +56,12 @@
 	}
 }
 
-/** Movil **/
 @media screen and (max-width: 767px) {
 	.CardProduct {
 		width: 90%;
 		margin: 0.5rem;
 		padding: 1rem;
+		border-radius: 0rem 0rem 1rem 1rem;
 	}
 
 	.CardProduct-description {
