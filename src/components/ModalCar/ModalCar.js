@@ -2,8 +2,6 @@ import React from "react";
 import "./ModalCar.css";
 
 export default function ModalCar(props) {
-	console.log(props);
-
 	return (
 		<div id="AddCar" className="modal-bg">
 			<div className="dialog bs-2 b-2">
