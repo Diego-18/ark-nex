@@ -38,6 +38,7 @@
 .CardProduct-description {
 	font-size: 1rem;
 	margin-bottom: 1rem;
+	text-align: justify;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {

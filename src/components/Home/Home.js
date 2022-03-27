@@ -3,6 +3,7 @@ import "./Home.css";
 
 import CardProduct from "../CardProduct/CardProduct";
 import CarruselProduct from "../CarruselProduct/CarruselProduct";
+import ModalCar from "../ModalCar/ModalCar";
 
 export default function Home() {
 	const [products, setProducts] = useState(null);
@@ -30,6 +31,7 @@ export default function Home() {
 		<div className="Home">
 			{products && <CarruselProduct images={products.images} />}
 			{products && <CardProduct products={products} />}
+			{products && <ModalCar product={products.title} />}
 		</div>
 	);
 }
