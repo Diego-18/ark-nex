@@ -93,6 +93,9 @@
 	transition: all 0.5s ease-out;
 }
 
+/*
+	Device: Tablet
+*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.modal-bg .dialog {
 		position: relative;
@@ -103,6 +106,9 @@
 	}
 }
 
+/*
+	Device: Mobile
+*/
 @media screen and (max-width: 767px) {
 	.modal-bg .dialog {
 		position: relative;

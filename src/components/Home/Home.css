@@ -9,6 +9,9 @@
 	border-radius: 0.5rem;
 }
 
+/*
+	Device: Tablet
+*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.Home {
 		flex-direction: column;
@@ -18,7 +21,9 @@
 	}
 }
 
-/** Movil **/
+/*
+	Device: Mobile
+*/
 @media screen and (max-width: 767px) {
 	.Home {
 		flex-direction: column;

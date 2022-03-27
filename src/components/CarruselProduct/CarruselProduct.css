@@ -46,6 +46,9 @@
 	}
 }
 
+/*
+	Device: Tablet
+*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.Carrusel {
 		width: 50rem;
@@ -59,7 +62,9 @@
 	}
 }
 
-/** Movil **/
+/*
+	Device: Mobile
+*/
 @media screen and (max-width: 767px) {
 	.Carrusel {
 		width: 100%;
