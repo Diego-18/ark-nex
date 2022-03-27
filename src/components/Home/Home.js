@@ -29,7 +29,6 @@ export default function Home() {
 	return (
 		<div className="Home">
 			{products && <CarruselProduct images={products.images} />}
-
 			{products && <CardProduct products={products} />}
 		</div>
 	);
