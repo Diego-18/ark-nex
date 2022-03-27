@@ -5,8 +5,8 @@ export default function Navbar() {
 	return (
 		<div>
 			<nav>
-				<div class="nav-logo g-font">Ark-Nex</div>
-				<div class="nav-link">
+				<div className="nav-logo g-font">Ark-Nex</div>
+				<div className="nav-link">
 					<a href="/">Home</a>
 				</div>
 			</nav>

@@ -1,10 +1,49 @@
-.carrusel {
+.Carrusel {
+	background-color: #f8f6f7;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
-	border: 1px solid #eee;
-	margin: 2rem;
-	padding: 1rem;
+	border: 2px solid #3498db;
 	width: 50%;
+	overflow: hidden;
+	margin: 2rem auto;
+	border-radius: 1.5rem 0rem 1.5rem 0rem;
+	box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
+}
+
+.Carrusel .ContainerCarrusel img {
+	width: 20rem;
+	float: left;
+	height: auto;
+}
+
+.Carrusel .ContainerCarrusel {
+	position: relative;
+	width: 1000%;
+	margin: 0;
+	left: 0;
+	font-size: 0;
+	animation: 10s slidy infinite;
+}
+
+@keyframes slidy {
+	0% {
+		left: 0%;
+	}
+	10% {
+		left: 0%;
+	}
+	25% {
+		left: -50%;
+	}
+	35% {
+		left: -100%;
+	}
+	45% {
+		left: -120%;
+	}
+	50% {
+		left: -120%;
+	}
 }
