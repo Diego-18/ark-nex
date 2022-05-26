@@ -2,7 +2,7 @@
 
 This is a product interface for an ecommerce company.
 
-## <img src="https://cdn-icons-png.flaticon.com/512/5685/5685016.png" alt="support" width="40" height="40">  Install
+## Install
 
 ## Project setup
 
@@ -18,13 +18,13 @@ yarn start
 ```
 Then open the browser with the following address: <a href="http://localhost:3000" target="__blank">http://localhost:3000</a>
 
-## <img src="https://cdn-icons-png.flaticon.com/512/5684/5684399.png" alt="support" width="40" height="40"> Technologies used
+## Technologies used
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-## <img src="https://cdn-icons-png.flaticon.com/512/5684/5684468.png" alt="support" width="40" height="40"> Browsers support
+## Browsers support
 
 ![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white)
 ![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
