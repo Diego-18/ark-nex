@@ -1,16 +1,16 @@
-import React from "react";
-import "./FormProduct.css";
+import React from 'react';
+import './FormProduct.css';
 
 export default function FormProduct(props) {
 	return (
 		<div>
 			<div className="options-form">
-				{props.products.map((option, index) => (
-					<div key={index}>
+				{props.products.map((option) => (
+					<div key={option}>
 						<label>{option.name}</label>
 						<select>
-							{option.values.map((value, index) => (
-								<option key={index}>{value}</option>
+							{option.values.map((value) => (
+								<option key={value}>{value}</option>
 							))}
 						</select>
 					</div>
