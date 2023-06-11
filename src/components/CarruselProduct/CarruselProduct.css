@@ -11,8 +11,8 @@
 
 .Carrusel .ContainerCarrusel img {
 	width: 20rem;
-	float: left;
 	height: auto;
+	float: left;
 }
 
 .Carrusel .ContainerCarrusel {
@@ -25,9 +25,7 @@
 }
 
 @keyframes slidy {
-	0% {
-		left: 0%;
-	}
+	0%,
 	10% {
 		left: 0%;
 	}

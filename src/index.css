@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
@@ -8,7 +9,7 @@ body {
 }
 
 .g-font {
-	font-family: "Lobster", cursive;
+	font-family: 'Lobster', cursive;
 }
 
 .btn {

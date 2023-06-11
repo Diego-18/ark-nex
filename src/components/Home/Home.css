@@ -12,7 +12,7 @@
 /*
 	Device: Tablet
 */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
 	.Home {
 		flex-direction: column;
 		padding: 0.5rem;

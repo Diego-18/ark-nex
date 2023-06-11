@@ -7,6 +7,7 @@
 }
 
 .btn {
+	display: flex;
 	align-items: center;
 	width: 16rem;
 	height: auto;
@@ -14,12 +15,13 @@
 	font-size: 0.9rem;
 	font-weight: bold;
 	color: #77848c;
-	padding: 1rem 0rem;
+	padding: 1rem;
 	border-radius: 0rem;
 	border: #77848c solid 1px;
 	margin: 1rem 0.5rem;
 	text-align: center;
 	text-decoration: none;
+	transition: background-color 0.3s, color 0.3s;
 }
 
 .btn:last-child {
@@ -32,9 +34,6 @@
 	color: #3498db;
 }
 
-/*
-	Device: Tablet
-*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.btn {
 		width: 18rem;
@@ -42,9 +41,6 @@
 	}
 }
 
-/*
-	Device: Mobile
-*/
 @media screen and (max-width: 767px) {
 	.btn {
 		width: 100%;

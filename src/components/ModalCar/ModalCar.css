@@ -7,19 +7,13 @@
 	left: 0;
 	background: rgba(0, 0, 0, 0);
 	z-index: 99999;
-	-moz-transition: all 2s ease-out;
-	-webkit-transition: all 2s ease-out;
-	-o-transition: all 2s ease-out;
 	transition: all 2s ease-out;
-	-webkit-transition-delay: 0.2s;
-	-moz-transition-delay: 0.2s;
-	-o-transition-delay: 0.2s;
-	-transition-delay: 0.2s;
+	transition-delay: 0.2s;
 	display: block;
 	pointer-events: none;
 }
+
 .modal-bg .dialog {
-	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
@@ -31,25 +25,18 @@
 	border-radius: 0.5rem;
 	background: #fff;
 }
+
 .modal-bg:target {
 	display: block;
 	pointer-events: auto;
 	background: rgba(4, 10, 30, 0.8);
-	-moz-transition: all 0.5s ease-out;
-	-webkit-transition: all 0.5s ease-out;
-	-o-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
 }
+
 .modal-bg:target .dialog {
 	top: -20px;
-	-moz-transition: all 0.8s ease-out;
-	-webkit-transition: all 0.8s ease-out;
-	-o-transition: all 0.8s ease-out;
 	transition: all 0.8s ease-out;
-	-webkit-transition-delay: 0.4s;
-	-moz-transition-delay: 0.4s;
-	-o-transition-delay: 0.4s;
-	-transition-delay: 0.4s;
+	transition-delay: 0.4s;
 }
 
 .modal-footer {
@@ -68,14 +55,9 @@
 	width: 24px;
 	text-decoration: none;
 	font-weight: bold;
-	-webkit-border-radius: 12px;
-	-moz-border-radius: 12px;
 	border-radius: 12px;
 	transition: all 0.5s ease-out;
-	-webkit-transition-delay: 0.2s;
-	-moz-transition-delay: 0.2s;
-	-o-transition-delay: 0.2s;
-	-transition-delay: 0.2s;
+	transition-delay: 0.2s;
 }
 
 .title-product {
@@ -87,12 +69,7 @@
 
 .btn-close:hover {
 	background: #3498db;
-	-moz-transition: all 0.5s ease-out;
-	-webkit-transition: all 0.5s ease-out;
-	-o-transition: all 0.5s ease-out;
-	transition: all 0.5s ease-out;
 }
-
 
 /*
 	Device: Tablet
