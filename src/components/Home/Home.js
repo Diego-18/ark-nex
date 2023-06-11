@@ -1,16 +1,16 @@
-import React, { useEffect, useState } from "react";
-import "./Home.css";
+import React, { useEffect, useState } from 'react';
+import './Home.css';
 
-import CardProduct from "../CardProduct/CardProduct";
-import CarruselProduct from "../CarruselProduct/CarruselProduct";
-import ModalCar from "../ModalCar/ModalCar";
+import CardProduct from '../CardProduct/CardProduct';
+import CarruselProduct from '../CarruselProduct/CarruselProduct';
+import ModalCar from '../ModalCar/ModalCar';
 
 export default function Home() {
 	const [products, setProducts] = useState(null);
 
 	useEffect(() => {
 		fetch(
-			"https://graditest-store.myshopify.com/products/free-trainer-3-mmw.js"
+			'https://graditest-store.myshopify.com/products/free-trainer-3-mmw.js'
 		)
 			.then((result) => result.json())
 			.then((data) => {
@@ -24,14 +24,21 @@ export default function Home() {
 					options: data.options,
 				};
 				setProducts(ProductData);
+			})
+			.catch((error) => {
+				console.error('Error fetching product data:', error);
 			});
 	}, []);
 
 	return (
 		<div className="Home">
-			{products && <CarruselProduct images={products.images} />}
-			{products && <CardProduct products={products} />}
-			{products && <ModalCar product={products.title} />}
+			{products && (
+				<>
+					<CarruselProduct images={products.images} />
+					<CardProduct products={products} />
+					<ModalCar product={products.title} />
+				</>
+			)}
 		</div>
 	);
 }

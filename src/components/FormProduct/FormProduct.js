@@ -6,7 +6,7 @@ export default function FormProduct(props) {
 		<div>
 			<div className="options-form">
 				{props.products.map((option) => (
-					<div key={option}>
+					<div key={option.name}>
 						<label>{option.name}</label>
 						<select>
 							{option.values.map((value) => (
@@ -21,7 +21,7 @@ export default function FormProduct(props) {
 					Add To Favorite
 				</a>
 				<a className="btn" href="#AddCar">
-					Add To Car
+					Add To Cart
 				</a>
 			</div>
 		</div>
